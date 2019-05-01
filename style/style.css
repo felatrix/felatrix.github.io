@@ -1,0 +1,120 @@
+.jumbotron {
+    height: 400px;
+    overflow: hidden;
+    margin-top: 10px;
+    color: white;
+    background-color: grey;
+}
+.jumbotron img {
+    margin-top: 20px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.about hr {
+    width: 250px;
+    border-top: 3px solid black;
+}
+
+.friend hr {
+    width: 250px;
+    border-top: 3px solid white;
+} 
+
+.friend .thumbnail {
+    opacity: 0;
+    transform: translate((0,-40px));
+    transition: .5s;
+}
+
+.friend .thumbnail.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.friend {
+    background-image: url('../img/background.jpg');
+    background-attachment: fixed;
+    color: white;
+    background-color: grey;
+}
+
+.contact hr {
+    width: 250px;
+    border-top: 3px solid black;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: grey;
+}
+
+footer a {
+    color: whitesmoke;
+}
+
+#about {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#friend {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#thumbnail {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-image: url('../img/background.jpg');
+    background-attachment: fixed;
+}
+
+footer {
+    background-image: url('../img/background.jpg');
+    background-attachment: fixed;
+}
+
+.jumbotron img {
+    box-shadow: 1px 1px 10px grey;
+}
+
+.jumbotron h1 ,.jumbotron p {
+    text-shadow: 1px 1px 10px grey;
+}
+
+.p-kanan {
+    opacity: 0;
+    transform: translate(50px,0);
+    transition: 1s;
+}
+
+
+.p-kiri {
+    opacity: 0;
+    transform: translate(-50px,0);
+    transition: 1s;
+}
+
+.p-kiri.p-muncul, .p-kanan.p-muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
